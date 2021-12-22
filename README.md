@@ -13,9 +13,14 @@ python3 -m pip install -r requirements.txt
 
 * Run the program
 ```
-python3 video-to-images.py VIDEO.mov
+python3 video-to-images.py --video FILE [--width WIDTH] [--height HEIGHT]
+
+--video: Video file name (relative or absolute path).
+--width: (Optional) Resize the images to this width.
+--height: (Optional) Resize the images to this height.
 ```
 
 
 ## Contact
 * You can reach us through our website: [www.visionify.ai](www.visionify.ai)
+
